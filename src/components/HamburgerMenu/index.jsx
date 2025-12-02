@@ -32,11 +32,11 @@ const Component = ({ menuIsOpen }) => {
           </li>
         ) : null}
 
-        <li className="blank">
+       {/* <li className="blank">
           <a title="企業公式サイト" href="/" target="_blank">
             企業公式サイト
           </a>
-        </li>
+        </li>*/}
         <li>
           <Link title="プライバシーポリシー" to="/privacy">プライバシーポリシー</Link>
         </li>
