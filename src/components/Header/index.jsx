@@ -59,9 +59,10 @@ const Component = () => {
                 </span>
               </Scroll>
               :
-              <Link to="/" target="_blank">
+               null
+              /*<Link to="/" target="_blank">
                 公式サイト
-              </Link>
+              </Link>*/
             }
           </div>
           <div

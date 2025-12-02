@@ -380,6 +380,7 @@ a[href^="tel:"] {
   justify-content: center;
   transition: .3s;
   -webkit-transition: .3s;
+  background-color: var(--color-sub);
 }
 
 #gHeader .menu {
@@ -2112,6 +2113,7 @@ a[href^="tel:"] {
   line-height: 2.5;
   letter-spacing: 0.06em;
   text-align: center;
+  color: var(--color-main);
 }
 
 .recruitPage .topSec .topText:before {
@@ -2121,7 +2123,7 @@ a[href^="tel:"] {
   bottom: 0;
   width: 32px;
   height: 1px;
-  background: #232835;
+  background: var(--color-main);
   content: "";
 }
 
