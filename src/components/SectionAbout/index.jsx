@@ -35,7 +35,7 @@ const Component = ({ aboutUs, businessContents }) => {
         </div>
         <div className="photoBox fadeInUp">
           <div className="infoImg">
-            <img src={aboutUs.media.url} alt={businessContents.title} />
+            <img src={businessContents.media.url} alt={businessContents.title} />
           </div>
         </div>
       </div>
