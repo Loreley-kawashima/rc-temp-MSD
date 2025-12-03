@@ -195,15 +195,15 @@ a:link {
 }
 
 a:visited {
-  color: var(--color-dark);
+  color: var(--color-main);
 }
 
 a:hover {
-  color: var(--color-dark);
+  color: var(--color-main);
 }
 
 a:active {
-  color: var(--color-dark);
+  color: var(--color-main);
 }
 
 /*------------------------------------------------------------
@@ -247,7 +247,7 @@ body {
   line-height: 1.5;
   text-size-adjust: none;
   -webkit-text-size-adjust: none;
-  background-color: #FFF;
+  background: url(../images/common/body-line.png) ;
 }
 
 body.fixed {
@@ -543,7 +543,7 @@ a[href^="tel:"] {
   #gHeader .menu {
     float: right;
     width: 60px;
-    height: 58px;
+    height: 60px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1460,7 +1460,7 @@ a[href^="tel:"] {
   height: 100%;
   font-size: 1.8rem;
   color: #fff;
-  background-color: #7298B066;
+  background-color: #7298B099;
   line-height: 2;
   box-sizing: border-box;
   letter-spacing: 0.06em;
@@ -1986,7 +1986,7 @@ a[href^="tel:"] {
   }
 
   .indexPage .aboutSec .inner .textBox .headLine04 .en {
-    color: #fff;
+    color: var(--color-main);
   }
 
   .indexPage .aboutSec .inner .textBox .headLine04 .jp {
