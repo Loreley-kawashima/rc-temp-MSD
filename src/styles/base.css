@@ -247,7 +247,7 @@ body {
   line-height: 1.5;
   text-size-adjust: none;
   -webkit-text-size-adjust: none;
-  background: url(../images/common/body-line.png) ;
+  background: url(../images/common/body-line.png) repeat ;
 }
 
 body.fixed {
